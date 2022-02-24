@@ -16,7 +16,7 @@ function App() {
     <>
 
     <Router>
-<<<<<<< HEAD
+ 
          <Navbar/>
              <Routes>
              <Route path='/' exact element={<Home/>}/>
@@ -29,7 +29,7 @@ function App() {
                />}/>
              </Routes>
              
-=======
+ 
         <Navbar/>
             <Routes>
             <Route path='/' exact element={<Home/>}/>
@@ -40,7 +40,7 @@ function App() {
             <Route path='/tools' element={<Tools/>}/>
             <Route path='/influencer/testimonial' element={<TestimonialProfile/>}/>
             </Routes>
->>>>>>> 083ea1ef0b93da1d6d877abd1d94a640de843518
+ 
         <LetsTalk/>
         <Footer/>
     
