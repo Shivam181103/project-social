@@ -9,7 +9,7 @@ import Footer from '../Footer';
 import Letstalk from '../LetsTalk';
 import Newsletter from './Newsletter';
 import {Link} from 'react-router-dom'
-
+import Headline from './headline';
 
 const Home = () => {
   return (
@@ -32,7 +32,8 @@ const Home = () => {
       </header>
     </section>
       
-        <Socialsection/>  
+        <Socialsection/> 
+         <Headline/>
         <Carousel/>  
         <Clients/> 
         <Newsletter/>  

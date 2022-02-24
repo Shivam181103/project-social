@@ -33,7 +33,8 @@ function App() {
              <Route path='/services' element={<Services/>}/>
              <Route path='/brands' element={<Brands/>}/>
              <Route path='/tools' element={<Tools/>}/>
-             <Route path='/influencer/testimonial' element={<TestimonialProfile/>}/>
+             <Route path='/influencer/testimonial' element={<TestimonialProfile
+               />}/>
              </Routes>
              
         <LetsTalk/>
